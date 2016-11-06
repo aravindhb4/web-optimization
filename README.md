@@ -9,7 +9,7 @@ This is a website optimization project for Udacity FEND. The project consists of
 
 ### src and dist
 
-The source code and optimized code are present in src and dist directories respectively.
+The source code(before optimization) and optimized code are present in **src** and **dist** directories respectively.
 
 ### Optimization
 ###### index.html for Pagespeed insights
