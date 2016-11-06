@@ -24,8 +24,8 @@ The optimizations made to page are,
 ###### pizza.html for smooth FPS
 To achieve smooth 60 fps scrolling in pizza.html, the following optimizations were made to **main.js** file.
 
-* Replace querySelector() methods with getElementById() and getElementsByClassName()
-* Decrease the number of pizzas from 200 to 20 in updatePositions()
+* Replace ***querySelector()*** methods with ***getElementById()*** and ***getElementsByClassName()***
+* Decrease the number of pizzas from 200 to 20 in ***updatePositions()***
 
 ### Usage of Gulp
 This automated task runner was used to optimize the images and minify the HTML code.
