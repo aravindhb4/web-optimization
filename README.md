@@ -1,6 +1,6 @@
 Website Performance Optimization
 ======================
-- - - 
+
 ### Overview
 This is a website optimization project for Udacity FEND. The project consists of two parts,
 
@@ -13,7 +13,7 @@ The source code and optimized code are present in src and dist directories respe
 
 ### Optimization
 ###### index.html for Pagespeed insights
-After creating a local server for index.html and tunneling it via ngrok, use [PageSpeed Insights]('https://developers.google.com/speed/pagespeed/insights/') to test the page and it should achieve a minimum score of 90 for both mobile and desktop.
+After creating a local server for index.html and tunneling it via ngrok, use [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to test the page and it should achieve a minimum score of 90 for both mobile and desktop.
 
 The optimizations made to page are,
 * inline the CSS files
@@ -30,7 +30,7 @@ To achieve smooth 60 fps scrolling in pizza.html, the following optimizations we
 ### Usage of Gulp
 This automated task runner was used to optimize the images and minify the HTML code.
 
-To get started with gulp --> [Getting started with Gulp.js]('https://css-tricks.com/gulp-for-beginners/')
+To get started with gulp --> [Getting started with Gulp.js](https://css-tricks.com/gulp-for-beginners/)
 
 The particular modules used in this project are,
 * gulp-image-resize
