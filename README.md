@@ -24,7 +24,7 @@ The optimizations made to page are,
 ###### pizza.html for smooth FPS
 To achieve smooth 60 fps scrolling in pizza.html, the following optimizations were made to **main.js** file and **style.css**
 
-* Added css to resizePizzas instead of calculations in js file
+* Added css to **resizePizzas** instead of calculations in js file
 * Decrease the number of pizzas based on widow height in ***updatePositions()***
 
 ### Usage of Gulp
