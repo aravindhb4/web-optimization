@@ -33,7 +33,13 @@ form {
   position: fixed;
   width: 256px;
   z-index: -1;
-  backface-visibility: hidden
+  /* Having each pizza to its own layer 
+  to fix paint performance issues */
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -ms-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
 }
 
 .randomPizzaContainer {
@@ -45,6 +51,19 @@ form {
   content: "";
   display: table;
   clear:both;
+}
+
+/*Add CSS resizes to improve pizza resize time*/
+.pizzaSmall {
+  width:25% !important;
+}
+
+.pizzaMedium {
+  width:33.33% !important;
+}
+
+.pizzaLarge {
+  width:50% !important;
 }
 
  .container {
