@@ -444,7 +444,7 @@ window.performance.mark("mark_start_generating"); // collect timing data
 var pizzasDiv = document.getElementById("randomPizzas");
 // This for-loop actually creates and appends all of the pizzas when the page loads
 // Reduce the number of Pizzas appended
-for (var i = 2; i < 20; i++) {
+for (var i = 2; i < 100; i++) {
   pizzasDiv.appendChild(pizzaElementGenerator(i));
 }
 
